@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="/assets/CSS/style.css" />
+        <title>Login Page</title>
+    </head>
+    <body>
+        <div id="login-page">
+            <div class="hero">
+                <img
+                    src="/assets/images/Group.svg"
+                    alt="Login"
+                    width="500"
+                    height="500"
+                />
+            </div>
+            <div class="login">
+                <h1 id="welcome">
+                    Welcome to <span id="design">Design School</span>
+                </h1>
+                <div class="btn">
+                    <button id="google">
+                        <span class="icons"
+                            ><i class="fa-brands fa-google"></i
+                        ></span>
+                        Login with google
+                    </button>
+                </div>
+                <div class="btn">
+                    <button id="facebook">
+                        <span class="icons"
+                            ><i class="fa-brands fa-facebook"></i
+                        ></span>
+                        Login with facebook
+                    </button>
+                </div>
+
+                <div class="opt">
+                    <span></span>
+                    <p>OR</p>
+                    <span></span>
+                </div>
+
+                <div class="form">
+                    <div class="username">
+                        <form action="">
+                            <label class="email" for="email">Email</label>
+                            <label class="icons-email" for="icons-email"
+                                ><i class="fa-solid fa-envelope"></i
+                            ></label>
+                            <input
+                                class="text"
+                                type="text"
+                                placeholder="example@gmail.com"
+                            />
+                        </form>
+                    </div>
+                    <div class="password-div">
+                        <form action="">
+                            <label class="password" for="password"
+                                >Password</label
+                            >
+                            <label class="icons-password" for="icons-password"
+                                ><i class="fa-solid fa-key"></i
+                            ></label>
+                            <label class="icons-eye" for="icons-eye"
+                                ><i class="fa-solid fa-eye"></i
+                            ></label>
+                            <label hidden class="icons-eye-slash" for=""
+                                ><i class="fa-solid fa-eye-slash"></i
+                            ></label>
+                            <input
+                                class="text"
+                                type="password"
+                                placeholder="****************"
+                            />
+                        </form>
+                    </div>
+                </div>
+                <div class="relate-password">
+                    <div class="checkbox">
+                        <input type="checkbox" />
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a class="forgot-me" href="">Forgot Password?</a>
+                </div>
+                <div class="btn-login">
+                    <button>Login</button>
+                </div>
+                <div class="sign-up">
+                    <p>
+                        Don’t have an account?
+                        <span><a class="register" href="">Register</a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
