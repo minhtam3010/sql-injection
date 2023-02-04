@@ -90,6 +90,15 @@ body {
     font-weight: 100;
 }
 
+.icons-eye-div {
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    width: 0;
+    height: 10px;
+}
+
 .username .icons-email,
 .password-div .icons-password {
     position: absolute;
@@ -100,8 +109,12 @@ body {
 .password-div .icons-eye,
 .password-div .icons-eye-slash {
     position: absolute;
-    top: 15px;
-    right: 30px;
+    right: 20px;
+}
+
+.password-div .icons-eye .fa-icon {
+    display: inline-block;
+    padding: 16px;
 }
 
 .password-div .icons-eye:hover {
