@@ -11,14 +11,14 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <link rel="stylesheet" href="/assets/CSS/style.css" />
+        <link rel="stylesheet" href="CSS/style.css" />
         <title>Login Page</title>
     </head>
     <body>
         <div id="login-page">
             <div class="hero">
                 <img
-                    src="/assets/images/Group.svg"
+                    src="images/Group.svg"
                     alt="Login"
                     width="500"
                     height="500"
@@ -52,8 +52,9 @@
                 </div>
 
                 <div class="form">
-                    <div class="username">
-                        <form action="">
+                    <form action="/login">
+                        <div class="username">
+                            <!-- <form action=""> -->
                             <label class="email" for="email">Email</label>
                             <label class="icons-email" for="icons-email"
                                 ><i class="fa-solid fa-envelope"></i
@@ -62,11 +63,12 @@
                                 class="text"
                                 type="text"
                                 placeholder="example@gmail.com"
+                                name="email"
                             />
-                        </form>
-                    </div>
-                    <div class="password-div">
-                        <form action="">
+                            <!-- </form> -->
+                        </div>
+                        <div class="password-div">
+                            <!-- <form action=""> -->
                             <label class="password" for="password"
                                 >Password</label
                             >
@@ -83,19 +85,23 @@
                                 class="text"
                                 type="password"
                                 placeholder="****************"
+                                name="password"
                             />
+                            <!-- </form> -->
+                        </div>
+                        <div class="relate-password">
+                            <div class="checkbox">
+                                <input type="checkbox" />
+                                <label for="remember">Remember me</label>
+                            </div>
+                            <a class="forgot-me" href="">Forgot Password?</a>
+                        </div>
+                        <div class="btn-login">
+                            <form class="button-login" action="/login">
+                                <button>Login</button>
+                            </form>
                         </form>
                     </div>
-                </div>
-                <div class="relate-password">
-                    <div class="checkbox">
-                        <input type="checkbox" />
-                        <label for="remember">Remember me</label>
-                    </div>
-                    <a class="forgot-me" href="">Forgot Password?</a>
-                </div>
-                <div class="btn-login">
-                    <button>Login</button>
                 </div>
                 <div class="sign-up">
                     <p>
