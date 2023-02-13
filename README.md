@@ -4,8 +4,11 @@
 
 For example: username: minhtam
 U can use the command below
+
+```
 minhtam' -- --> comment in MYSQL
 OR minhtam ' #
+```
 
 #### Using boolean statement to login.
 
