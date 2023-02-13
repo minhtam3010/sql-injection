@@ -6,7 +6,7 @@ For example: username: minhtam
 U can use the command below
 
 ```
-minhtam' -- --> comment in MYSQL
+minhtam' -- ** comment in MYSQL
 OR minhtam ' #
 ```
 
